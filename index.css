@@ -126,6 +126,7 @@ body.night{
     border-top 0.5s ease,
     border-left 0.5s ease,
     box-shadow 0.5s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 #blue1{
     position: fixed;
