@@ -33,8 +33,6 @@ body.night{
     background-color: rgb(186, 186, 186);
     border-top: 1px solid rgb(110,110,110);
     border-left: 1px solid rgb(110,110,110);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.8),
-    -2px -2px 10px rgb(40,40,40);
 }
 #button1.night #blue1{
     background-color: rgb(79, 79, 79,0.4);
@@ -117,8 +115,7 @@ body.night{
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    box-shadow: 0 2px 15px rgba(0,0,0,0.8),
-    -2px -2px 10px rgb(255,255,255);
+    box-shadow: inset -2px -1px 10px rgb(240, 240, 240);
     z-index: 5;
     cursor: pointer;
     transition: left 0.5s ease,
