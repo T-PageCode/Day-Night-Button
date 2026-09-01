@@ -24,6 +24,7 @@ body.night{
     box-shadow: inset 0 5px 10px rgba(0,0,0,0.5);
     overflow: hidden;
     transition: background-color 0.5s ease;
+    cursor: pointer;
 }
 #button1.night{
     background-color: rgb(35, 35, 35);
@@ -117,7 +118,6 @@ body.night{
     border-radius: 50%;
     box-shadow: inset -2px -1px 10px rgb(240, 240, 240);
     z-index: 5;
-    cursor: pointer;
     transition: left 0.5s ease,
     background-color 0.5s ease,
     border-top 0.5s ease,
